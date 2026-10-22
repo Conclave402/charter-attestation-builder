@@ -1,0 +1,17 @@
+{
+  "name": "charter-attestation-builder",
+  "version": "1.0.0",
+  "description": "Build one EAS attestation payload from the Charter, Constitution and SOUL texts and their IPFS ids. Pure, no RPC.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/builder.mjs",
+  "exports": {
+    ".": "./src/builder.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
